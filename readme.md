@@ -11,6 +11,10 @@ write a buf into the pcap file. Notice that you need to provide the timestamp.
 `int writePcap(int fd, char * buf,int len,struct timeval tv);`  
 Close a pcap file.  
 `void closePcapFile(int fd);`  
+### Install
+
+No need to install it. Just include this file in your code and use the API.  
+`#include "mypcap.h"`
 
 ### Usage
 
